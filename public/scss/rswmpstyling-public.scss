@@ -1,0 +1,66 @@
+// Font Smoothing
+html > body > * {
+    -webkit-font-smoothing: antialiased;
+}
+
+
+// Hide for Stripe buttons mainly
+body:not(.fl-builder-content-panel-is-showing) .rsw-hide {
+	position: absolute;
+	left: -99999em;
+}
+
+// Inputs
+input[type=text],
+input[type=url],
+input[type=email],
+input[type=tel],
+input[type=password] {
+	line-height: 2 !important;
+}
+input[type=text],
+input[type=url],
+input[type=email],
+input[type=tel],
+input[type=password],
+input[type=search],
+textarea {
+	font-size: 16px;
+	padding: 1.5em 1em;
+}
+
+// Responsive Nav
+.fl-nav-offcanvas-active .fl-page-nav-collapse {
+	overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+.fl-nav-offcanvas-active .fl-page-nav-collapse #menu-main-menu {
+	padding-bottom: 110px;
+}
+
+.navbar-toggle.navbar-toggler {
+  border: none !important;
+}
+.fl-nav-mobile-offcanvas.fl-responsive-nav-enabled.fl-fixed-header {
+  .navbar-toggle {
+    top: auto !important;
+  }
+}
+
+// Lightboxes
+.fl-button-lightbox-wrap .mfp-content {
+	background: transparent;
+}
+
+.mfp-wrap.fl-button-lightbox-wrap .mfp-close, .mfp-wrap.fl-button-lightbox-wrap .mfp-close,
+.mfp-wrap.fl-button-lightbox-wrap .mfp-close, .mfp-wrap.fl-button-lightbox-wrap .mfp-close:hover {
+ color: #fff !important;
+	font-size: 35px;
+	opacity: 1;
+	top: -25px !important;
+	right: 15px;
+}
+
+.mfp-wrap.fl-button-lightbox-wrap .mfp-close, .mfp-wrap.fl-button-lightbox-wrap .mfp-close:hover {
+	opacity: .65 !important;
+}

@@ -1,4 +1,4 @@
-=== Plugin Name ===
+=== Extra Styling for MemberPress ===
 Contributors: readysteadywebsites
 Donate link: https://readysteadywebsites.com/styling-memberpress/
 Tags: css, styling, memberpress, customizer
@@ -32,9 +32,14 @@ When you're done click 'Publish' in the customizer.
 2. Styling options screenshot-2.png
 3. Styling buttons screenshot-3.png
 4. Styling coupon button screenshot-4.png
-5. Styling price and terms box screenshot-4.png
+5. Styling price and terms box screenshot-5.png
 
 == Changelog ==
 
 = 1.0.0 =
 * Initial Version
+
+== Upgrade Notice ==
+
+= 1.0 =
+Initial Version is required

@@ -1,32 +1,40 @@
-# Extra Styling for MemberPress
-
-* Contributors: readysteadywebsites
-* Tags: css, styling, memberpress, customizer
-* Requires at least: 4.6
-* Tested up to: 5.4.1
-* Stable tag: 5.4.1
-* License: GPLv2 or later
-* License URI: http://www.gnu.org/licenses/gpl-2.0.html
-
-Just a little plugin to make MemberPress registration and login pages look a little nice. Allows easy styling of buttons right from the customizer.
-
-## Description
+=== Plugin Name ===
+Contributors: readysteadywebsites
+Donate link: https://readysteadywebsites.com/styling-memberpress/
+Tags: css, styling, memberpress, customizer
+Requires at least: 4.7
+Tested up to: 5.4.1
+Stable tag: 1.0.0
+Requires PHP: 7.0
+License: GPLv2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 Just a little plugin to make MemberPress registration and login pages look a little nice. Allows easy styling of buttons right from the customizer.
 
-## Installation
+== Description ==
 
-This section describes how to install the plugin and get it working.
+Just a little plugin to make MemberPress registration and login pages look a little nice. Allows easy styling of buttons right from the customizer.
 
-e.g.
 
-1. Upload the zip file to the `/wp-content/plugins/` directory
-2. Activate the plugin through the "Plugins" menu in WordPress
-3. Go into MemberPress &gt; Memberships and view a current Membership
-4. Click on "Customize" in the black admin bar
-5. In the Customizer choose MemberPress - Extra Styling" and you can then change buttons, coupon button and notice box straight from the customizer and see it change
-6. When you're finished make sure you click "Publish"
+== Frequently Asked Questions ==
 
-## Changelog
+= How does it work =
 
-* 1.0.0 - Initial verison
+In order to see the styling in action, head over to 'MemberPress' in WordPress admin and then click on any of your Memberships and click 'View'. Then click 'Customize' in the WordPress admin bar at the top of the screen.
+
+From there, choose 'MemberPress - Extra Styling' and you'll be able to play with the settings to get the right look for your buttons etc.
+
+When you're done click 'Publish' in the customizer.
+
+== Screenshots ==
+
+1. Choose 'MemberPress - Extra Styling' from Customizer screenshot-1.png
+2. Styling options screenshot-2.png
+3. Styling buttons screenshot-3.png
+4. Styling coupon button screenshot-4.png
+5. Styling price and terms box screenshot-4.png
+
+== Changelog ==
+
+= 1.0.0 =
+* Initial Version

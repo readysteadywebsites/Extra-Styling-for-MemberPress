@@ -3,8 +3,8 @@
 * Contributors: readysteadywebsites
 * Tags: css, styling, memberpress, customizer
 * Requires at least: 4.6
-* Tested up to: 5.4.1
-* Stable tag: 5.4.1
+* Tested up to: 5.5.3
+* Stable tag: 1.0.1
 * License: GPLv2 or later
 * License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -29,4 +29,5 @@ e.g.
 
 ## Changelog
 
+* 1.0.1 - Switch on some basic styling for Account links to turn them into tabs
 * 1.0.0 - Initial verison

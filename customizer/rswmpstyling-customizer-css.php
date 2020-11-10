@@ -611,6 +611,47 @@ function rswmpstyling_customizer_css()
 
     }
     ?>
+
+<?php
+// Account tabs
+$rswmpstyling_memberpress_styling_tabs = get_theme_mod('rswmpstyling_memberpress_styling_tabs');
+
+if ( $rswmpstyling_memberpress_styling_tabs == '1' ) {
+ ?>
+body #mepr-account-nav {display: inline-block;
+  width: 100% !important;
+  padding: 10px 0 0 0; }
+  @media only screen and (min-width: 767px) {
+    body #mepr-account-nav {
+      border-bottom: 1px solid #ccc;
+      padding-left: 10px; } }
+#mepr-account-nav .mepr-nav-item {
+  display: inline-block;
+  width: 100%;
+  background: #f7f7f7;
+  border: 1px solid #ccc;
+  padding: 7px 15px;
+  margin: 0 0 -1px 0; }
+  @media only screen and (min-width: 767px) {
+    #mepr-account-nav .mepr-nav-item {
+      width: auto;
+      float: left;
+      border-top-left-radius: 8px;
+      border-top-right-radius: 8px;
+      position: relative;
+      margin-bottom: -1px; } }
+#mepr-account-nav .mepr-active-nav-tab {
+  z-index: 1;
+  background: #e7e7e7; }
+  @media only screen and (min-width: 767px) {
+    #mepr-account-nav .mepr-active-nav-tab {
+      top: -5px;
+      padding-top: 12px;
+      padding-bottom: 7px;
+      margin-right: -3px;
+      margin-left: -1px;
+      margin-bottom: -6px; } }
+<?php } ?>
         </style>
     <?php
 

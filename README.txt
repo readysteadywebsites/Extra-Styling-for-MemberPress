@@ -1,10 +1,10 @@
 === Extra Styling for MemberPress ===
 Contributors: readysteadywebsites
 Donate link: https://readysteadywebsites.com/styling-memberpress/
-Tags: memberpress, customizer, registration, readsteadywebsites, css, styling, sign up, 
+Tags: memberpress, customizer, registration, readsteadywebsites, css, styling, sign up
 Requires at least: 4.7
-Tested up to: 5.5
-Stable tag: 1.0.0
+Tested up to: 5.5.3
+Stable tag: 1.0.1
 Requires PHP: 7.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -36,6 +36,8 @@ When you're done click 'Publish' in the customizer.
 
 == Changelog ==
 
+= 1.0.1 =
+* Switch on some basic styling for Account links to turn them into tabs
 = 1.0.0 =
 * Initial Version
 

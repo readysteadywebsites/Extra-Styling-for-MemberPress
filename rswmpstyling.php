@@ -10,7 +10,7 @@
  * Plugin Name:       Extra Styling for MemberPress
  * Plugin URI:        https://readysteadywebsites.com/styling-memberpress/
  * Description:       Just a little plugin to make MemberPress registration and login pages look a little nice. Allows easy styling of buttons right from the customizer.
- * Version:           1.0.0
+ * Version:           1.0.1
  * Author:            Ready Steady Websites
  * Author URI:        https://readysteadywebsites.com
  * License:           GPL-2.0+
@@ -29,7 +29,7 @@ if (! defined('WPINC')) {
  * Start at version 1.0.0 and use SemVer - https://semver.org
  * Rename this for your plugin and update it as you release new versions.
  */
-define('RSW_MP_STYLING_VERSION', '1.0.0');
+define('RSW_MP_STYLING_VERSION', '1.0.1');
 
 /**
  * The code that runs during plugin activation.

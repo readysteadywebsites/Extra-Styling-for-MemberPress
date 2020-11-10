@@ -782,5 +782,30 @@ function rswmpstyling_customize_register($wp_customize)
                       )
                   );
 
+      // Account Tabs
+
+      $wp_customize->add_section('rswmpstyling_memberpress_styling_account_tabs', array(
+              'priority' => 1,
+              'title' => __('Account Tabs', 'rswmpstyling'),
+              'description' => __('Switch on some basic styling for MemberPress account tabs.', 'rswmpstyling'),
+              'panel' => 'rswmpstyling_memberpress_styling_panel'
+          ));
+
+
+  $wp_customize->add_setting('rswmpstyling_memberpress_styling_tabs', array(
+          'default' => '',
+          'sanitize_callback' => 'esc_html'
+      ));
+
+  $wp_customize->add_control(
+                        'rswmpstyling_memberpress_styling_tabs',
+                        array(
+                            'section'   => 'rswmpstyling_memberpress_styling_account_tabs',
+                            'label'     => esc_html__('Style account links as tabs', 'rswmpstyling'),
+                            'type'      => 'checkbox',
+                            'priority' => 1
+                        )
+                    );
+
 }
 add_action('customize_register', 'rswmpstyling_customize_register');

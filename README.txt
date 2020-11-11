@@ -37,7 +37,7 @@ When you're done click 'Publish' in the customizer.
 == Changelog ==
 
 = 1.0.1 =
-* Switch on some basic styling for Account links to turn them into tabs
+* Switched on some basic styling for Account links to turn them into tabs
 = 1.0.0 =
 * Initial Version
 

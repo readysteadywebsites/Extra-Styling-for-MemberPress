@@ -29,5 +29,5 @@ e.g.
 
 ## Changelog
 
-* 1.0.1 - Switch on some basic styling for Account links to turn them into tabs
+* 1.0.1 - Switched on some basic styling for Account links to turn them into tabs
 * 1.0.0 - Initial verison

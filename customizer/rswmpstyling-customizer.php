@@ -807,5 +807,30 @@ function rswmpstyling_customize_register($wp_customize)
                         )
                     );
 
+        // Account Tabs
+
+        $wp_customize->add_section('rswmpstyling_memberpress_styling_forms', array(
+                'priority' => 1,
+                'title' => __('Forms', 'rswmpstyling'),
+                'description' => __('Simple controls for forms.', 'rswmpstyling'),
+                'panel' => 'rswmpstyling_memberpress_styling_panel'
+            ));
+
+
+    $wp_customize->add_setting('rswmpstyling_memberpress_show_pw', array(
+            'default' => '',
+            'sanitize_callback' => 'esc_html'
+        ));
+
+    $wp_customize->add_control(
+        'rswmpstyling_memberpress_show_pw',
+        array(
+            'section'   => 'rswmpstyling_memberpress_styling_forms',
+            'label'     => esc_html__('Reinstate button styles for password show/hide control', 'rswmpstyling'),
+            'type'      => 'checkbox',
+            'priority' => 1
+        )
+    );
+
 }
 add_action('customize_register', 'rswmpstyling_customize_register');

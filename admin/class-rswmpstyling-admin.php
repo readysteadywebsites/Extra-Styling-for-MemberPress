@@ -73,7 +73,7 @@ class RSW_MP_Styling_Admin {
 		 * class.
 		 */
 
-		wp_enqueue_style( $this->RSW_MP_Styling, plugin_dir_url( __FILE__ ) . 'css/rswmpstyling-admin.css', array(), $this->version, 'all' );
+		//wp_enqueue_style( $this->RSW_MP_Styling, plugin_dir_url( __FILE__ ) . 'css/rswmpstyling-admin.css', array(), $this->version, 'all' );
 
 	}
 

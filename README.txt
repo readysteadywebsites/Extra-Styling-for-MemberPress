@@ -2,8 +2,8 @@
 Contributors: readysteadywebsites
 Donate link: https://readysteadywebsites.com/styling-memberpress/
 Tags: memberpress, customizer, registration, readsteadywebsites, css, styling, sign up
-Requires at least: 4.7
-Tested up to: 5.5.3
+Requires at least: 5.1
+Tested up to: 5.6
 Stable tag: 1.0.1
 Requires PHP: 7.0
 License: GPLv2 or later
@@ -15,6 +15,7 @@ Just a little plugin to make MemberPress registration and login pages look a lit
 
 Just a little plugin to make MemberPress registration and login pages look a little nicer. Allows easy styling of buttons, coupon buttons and registration notice right from the WordPress customizer.
 
+We are working on [a Pro version](https://readysteadywebsites.com/styling-memberpress/) too with lots more features. You'll be able to do all the above + customize login screen width, widths of registration pages (which are a particular pain if you're using Divi), control the colours, paddings and styles of the fields on the login and registration forms independently plus a whole load of other cool features!
 
 == Frequently Asked Questions ==
 

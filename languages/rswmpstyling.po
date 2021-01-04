@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2020-11-10 17:19+0000\n"
-"PO-Revision-Date: 2020-11-10 17:20+0000\n"
+"POT-Creation-Date: 2021-01-04 20:54+0000\n"
+"PO-Revision-Date: 2021-01-04 20:54+0000\n"
 "Last-Translator: MeanThemes <themes@meanthemes.com>\n"
 "Language-Team: \n"
 "Language: en_GB\n"
@@ -150,4 +150,16 @@ msgstr ""
 
 #: customizer/rswmpstyling-customizer.php:804
 msgid "Style account links as tabs"
+msgstr ""
+
+#: customizer/rswmpstyling-customizer.php:814
+msgid "Forms"
+msgstr ""
+
+#: customizer/rswmpstyling-customizer.php:815
+msgid "Simple controls for forms."
+msgstr ""
+
+#: customizer/rswmpstyling-customizer.php:829
+msgid "Reinstate button styles for password show/hide control"
 msgstr ""

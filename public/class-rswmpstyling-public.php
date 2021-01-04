@@ -73,13 +73,7 @@ class RSW_MP_Styling_Public {
 		 * class.
 		 */
 
-		// If Page builder is running load this class
-		if ( class_exists( 'FLBuilderModel' ) && FLBuilderModel::is_builder_active() ) {
-			wp_enqueue_style( $this->RSW_MP_Styling, plugin_dir_url( __FILE__ ) . 'css/rswmpstyling-bb.css', array(), $this->version, 'all' );
 
-			// Show only RSW templates
-			wp_enqueue_script( $this->RSW_MP_Styling, plugin_dir_url( __FILE__ ) . 'js/rswmpstyling-bb.js', array( 'jquery' ), $this->version, false  );
-		}
 
 	}
 

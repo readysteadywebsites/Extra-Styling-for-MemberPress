@@ -4,7 +4,7 @@ Donate link: https://readysteadywebsites.com/styling-memberpress/
 Tags: memberpress, customizer, registration, readsteadywebsites, css, styling, sign up
 Requires at least: 5.1
 Tested up to: 5.6
-Stable tag: 1.0.2
+Stable tag: 1.0.3
 Requires PHP: 7.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -37,6 +37,8 @@ When you're done click 'Publish' in the customizer.
 
 == Changelog ==
 
+= 1.0.3 =
+* Styling fix for 1.9.10 version of MemberPress password show/hide field
 = 1.0.2 =
 * Added "Forms" control into Customizer - this auto disables the new MemberPress password show/hide field styling, but you can reinstate from the Customizer
 = 1.0.1 =

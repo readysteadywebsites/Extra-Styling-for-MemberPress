@@ -635,7 +635,7 @@ body #mepr-account-nav {display: inline-block;width:100%!important;padding: 10px
 $rswmpstyling_memberpress_show_pw = get_theme_mod('rswmpstyling_memberpress_show_pw');
 if ( $rswmpstyling_memberpress_show_pw != '1' ) {
 ?>
-.button.button-secondary.mp-hide-pw,.button.button-secondary.mp-hide-pw:hover {border:none;background:none}
+body button.button.mp-hide-pw, body button.button.mp-hide-pw:hover {border:none;background:none;color:#000;opacity:0.7;transition:all 0.25s ease-in-out;}
 
 <?php } ?>
         </style>

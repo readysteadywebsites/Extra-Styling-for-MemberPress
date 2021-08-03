@@ -3,8 +3,8 @@ Contributors: readysteadywebsites
 Donate link: https://readysteadywebsites.com/styling-memberpress/
 Tags: memberpress, customizer, registration, readsteadywebsites, css, styling, sign up
 Requires at least: 5.1
-Tested up to: 5.6
-Stable tag: 1.0.3
+Tested up to: 5.8
+Stable tag: 1.0.4
 Requires PHP: 7.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -15,7 +15,7 @@ Just a little plugin to make MemberPress registration and login pages look a lit
 
 Just a little plugin to make MemberPress registration and login pages look a little nicer. Allows easy styling of buttons, coupon buttons and registration notice right from the WordPress customizer.
 
-We are working on [a Pro version](https://readysteadywebsites.com/styling-memberpress/) too with lots more features. You'll be able to do all the above + customize login screen width, widths of registration pages (which are a particular pain if you're using Divi), control the colours, paddings and styles of the fields on the login and registration forms independently plus a whole load of other cool features!
+Want even more customisation options? We have Pro version called [Missing Bits for MemberPress](https://readysteadywebsites.com/downloads/missing-bits-for-memberpress/)! You'll be able to do all the above + customize login screen width, widths of registration pages (which are a particular pain if you're using Divi), control the colours, paddings and styles of the fields on the login and registration forms independently, show/hide comments on memberships globally, loads of MemberPress Courses styling plus a whole load of other cool features!
 
 == Frequently Asked Questions ==
 
@@ -37,6 +37,8 @@ When you're done click 'Publish' in the customizer.
 
 == Changelog ==
 
+= 1.0.4 =
+* Fix for coupon button not staying full width. Added additional checkbox to switch coupon button back to a standard link.
 = 1.0.3 =
 * Styling fix for 1.9.10 version of MemberPress password show/hide field
 = 1.0.2 =

@@ -13,7 +13,7 @@
 
 function rswmpstyling_customizer_css()
 {
-?>
+    ?>
 <style type="text/css" id="rswmpstyling-inline">
     .mp-spacer {
       line-height: 0.5;
@@ -67,203 +67,212 @@ function rswmpstyling_customizer_css()
         $rswmpstyling_memberpress_styling_button_value = true;
     }
     if ($rswmpstyling_memberpress_styling_button_value !== false) {
-      if ($rswmpstyling_memberpress_styling_button_center) { ?>
+        if ($rswmpstyling_memberpress_styling_button_center) {
+            ?>
                    .mp-form-submit, .mp_wrapper .submit,
                    .mp_wrapper .mepr-login-actions {
                    text-align: center;
                   }
                  <?php
 
-                 }
-                 ?>
+        }
+        ?>
                  .mepr-form .button-primary, .mepr-form .mepr-share-button, .mepr-form .mepr-submit,
                  .mp_wrapper .button-primary, .mp_wrapper .mepr-share-button, .mp_wrapper .mepr-submit,
                  .mp_wrapper .submit  {
                      transition: all 0.25s ease-in-out;
                      <?php if ($rswmpstyling_memberpress_styling_button_full_width) {
-                     ?>
+            ?>
                       display: inline-block;
                       width: 100%;
                       text-align: center;
                      <?php
 
-                 }
-                 ?>
+        }
+        ?>
                      <?php if ($rswmpstyling_memberpress_styling_button_uppercase) {
-                     ?>
+            ?>
                       text-transform: uppercase !important;
                      <?php
 
-                 }
-                 ?>
+        }
+        ?>
                  }
                  .mepr-form .button-primary, .mepr-form .mepr-share-button, .mepr-form .mepr-submit,
                  .mp_wrapper .button-primary, .mp_wrapper .mepr-share-button, .mp_wrapper .mepr-submit  {
                      <?php if ($rswmpstyling_memberpress_styling_button_bg_color) {
-                     ?>
+            ?>
                          background-color: <?php echo esc_attr($rswmpstyling_memberpress_styling_button_bg_color);
-                     ?> !important;
+            ?> !important;
                      <?php
 
-                 }
-                 ?>
+        }
+        ?>
                      <?php if ($rswmpstyling_memberpress_styling_button_border_width) {
-                     ?>
+            ?>
                       border-width: <?php echo esc_attr($rswmpstyling_memberpress_styling_button_border_width);
-                     ?>px !important;
+            ?>px !important;
                      <?php
-                 }
-                 ?>
+
+        }
+        ?>
                      <?php if ($rswmpstyling_memberpress_styling_button_border_color) {
-                     ?>
+            ?>
                       border-color: <?php echo esc_attr($rswmpstyling_memberpress_styling_button_border_color);
-                     ?> !important;
+            ?> !important;
                      <?php
-                 }
-                 ?>
+
+        }
+        ?>
                      <?php if ($rswmpstyling_memberpress_styling_button_font_size_mobile) {
-                     ?>
-                      font-size: <?php echo esc_attr($rswmpstyling_memberpress_styling_button_font_size_mobile); ?>px !important;
+            ?>
+                      font-size: <?php echo esc_attr($rswmpstyling_memberpress_styling_button_font_size_mobile);
+            ?>px !important;
                      <?php
-                 }
-                 ?>
+
+        }
+        ?>
                      <?php if ($rswmpstyling_memberpress_styling_button_padding_top_bottom) {
-                     ?>
-                      padding-top: <?php echo esc_attr($rswmpstyling_memberpress_styling_button_padding_top_bottom); ?>px;
-                     padding-bottom: <?php echo esc_attr($rswmpstyling_memberpress_styling_button_padding_top_bottom); ?>px;
+            ?>
+                      padding-top: <?php echo esc_attr($rswmpstyling_memberpress_styling_button_padding_top_bottom);
+            ?>px;
+                     padding-bottom: <?php echo esc_attr($rswmpstyling_memberpress_styling_button_padding_top_bottom);
+            ?>px;
                      <?php
-                 }
-                 ?>
+
+        }
+        ?>
                       <?php if ($rswmpstyling_memberpress_styling_button_padding_right_left) {
-                     ?>
+            ?>
                    padding-left: <?php echo esc_attr($rswmpstyling_memberpress_styling_button_padding_right_left);
-                     ?>px;
+            ?>px;
                       padding-right: <?php echo esc_attr($rswmpstyling_memberpress_styling_button_padding_right_left);
-                     ?>px;
+            ?>px;
                       <?php
 
-                 }
-                 ?>
+        }
+        ?>
                      <?php if ($rswmpstyling_memberpress_styling_button_border_radius) {
-                     ?>
+            ?>
                       border-radius: <?php echo esc_attr($rswmpstyling_memberpress_styling_button_border_radius);
-                     ?>px !important;
+            ?>px !important;
                      <?php
 
-                 }
-                 ?>
+        }
+        ?>
                  <?php if ($rswmpstyling_memberpress_styling_button_letter_spacing) {
-                     ?>
+            ?>
                          letter-spacing: <?php echo esc_attr($rswmpstyling_memberpress_styling_button_letter_spacing);
-                     ?>px !important;
+            ?>px !important;
                      <?php
 
-                 }
-                 ?>
+        }
+        ?>
                }
 
 
                  <?php if ($rswmpstyling_memberpress_styling_button_font_size_tablet) {
-                     ?>
+            ?>
                      @media only screen and (min-width: 768px) {
                          .mepr-form .button-primary, .mepr-form .mepr-share-button, .mepr-form .mepr-submit,
                          .mp_wrapper .button-primary, .mp_wrapper .mepr-share-button, .mp_wrapper .mepr-submit,
                          .mp_wrapper .submit  {
                               font-size: <?php echo esc_attr($rswmpstyling_memberpress_styling_button_font_size_tablet);
-                     ?>px !important;
+            ?>px !important;
                          }
                      }
                  <?php
 
-                 }
-                 ?>
+        }
+        ?>
 
                   <?php if ($rswmpstyling_memberpress_styling_button_font_size_desktop) {
-                     ?>
+            ?>
                         @media only screen and (min-width: 992px) {
                           .mepr-form .button-primary, .mepr-form .mepr-share-button, .mepr-form .mepr-submit,
                           .mp_wrapper .button-primary, .mp_wrapper .mepr-share-button, .mp_wrapper .mepr-submit,
                           .mp_wrapper .submit  {
                                font-size: <?php echo esc_attr($rswmpstyling_memberpress_styling_button_font_size_desktop);
-                     ?>px !important;
+            ?>px !important;
                           }
                         }
                   <?php
 
-                 }
-                 ?>
+        }
+        ?>
 
                  .mepr-form .button-primary, .mepr-form .mepr-share-button, .mepr-form .mepr-submit,
                  .mp_wrapper .button-primary, .mp_wrapper .mepr-share-button, .mp_wrapper .mepr-submit,
                  .mp_wrapper .submit {
                      transition: all 0.25s ease-in-out;
                      <?php if ($rswmpstyling_memberpress_styling_button_color) {
-                     ?>
+            ?>
                       color: <?php echo esc_attr($rswmpstyling_memberpress_styling_button_color);
-                     ?> !important;
+            ?> !important;
                      <?php
 
-                 }
-                 ?>
+        }
+        ?>
                  }
 
                  .mepr-form .button-primary:hover, .mepr-form .mepr-share-button:hover, .mepr-form .mepr-submit:hover,
                  .mp_wrapper .button-primary:hover, .mp_wrapper .mepr-share-button:hover, .mp_wrapper .mepr-submit:hover {
                      <?php if ($rswmpstyling_memberpress_styling_button_bg_hover_color) {
-                     ?>
+            ?>
                       background-color: <?php echo esc_attr($rswmpstyling_memberpress_styling_button_bg_hover_color);
-                     ?> !important;
+            ?> !important;
                      <?php
 
-                 }
-                 ?>
+        }
+        ?>
 
                      <?php if ($rswmpstyling_memberpress_styling_button_border_width) {
-                     ?>
+            ?>
                       border-width: <?php echo esc_attr($rswmpstyling_memberpress_styling_button_border_width);
-                     ?>px !important;
+            ?>px !important;
                      <?php
 
-                 }
-                 ?>
+        }
+        ?>
                      <?php if ($rswmpstyling_memberpress_styling_button_border_hover_color) {
-                     ?>
+            ?>
                       border-color: <?php echo esc_attr($rswmpstyling_memberpress_styling_button_border_hover_color);
-                     ?> !important;
+            ?> !important;
                      <?php
 
-                 }
-                 ?>
+        }
+        ?>
                      <?php if ($rswmpstyling_memberpress_styling_button_border_radius) {
-                     ?>
+            ?>
                       border-radius: <?php echo esc_attr($rswmpstyling_memberpress_styling_button_border_radius);
-                     ?>px !important;
+            ?>px !important;
                      <?php
 
-                 }
-                 ?>
+        }
+        ?>
                   }
 
                  .mepr-form .button-primary:hover, .mepr-form .mepr-share-button:hover, .mepr-form .mepr-submit:hover,
                  .mp_wrapper .button-primary:hover, .mp_wrapper .mepr-share-button:hover, .mp_wrapper .mepr-submit:hover {
                      <?php if ($rswmpstyling_memberpress_styling_button_hover_color) {
-                     ?>
+            ?>
                       color: <?php echo esc_attr($rswmpstyling_memberpress_styling_button_hover_color);
-                     ?> !important;
+            ?> !important;
                      <?php
 
-                 }
-                 ?>
+        }
+        ?>
                  }
 
              <?php
 
-             }
+    }
     ?>
 
     <?php
 
     //COUPON BUTTONS
+    $rswmpstyling_memberpress_styling_coupon_button = get_theme_mod('rswmpstyling_memberpress_styling_coupon_button');
 
     // Colours
     $rswmpstyling_memberpress_styling_coupon_bg_color = get_theme_mod('rswmpstyling_memberpress_styling_coupon_bg_color');
@@ -320,6 +329,10 @@ function rswmpstyling_customizer_css()
         $rswmpstyling_memberpress_styling_coupon_value = true;
     }
 
+    if ($rswmpstyling_memberpress_styling_coupon_button === '1') {
+        $rswmpstyling_memberpress_styling_coupon_value = false;
+    }
+
     ?>
                 <?php
              if ($rswmpstyling_memberpress_styling_coupon_value !== false) {
@@ -351,6 +364,7 @@ function rswmpstyling_customizer_css()
                      ?>
                       display: inline-block;
                       width: 100%;
+                      max-width: 100%;
                       text-align: center;
                      <?php
 
@@ -616,8 +630,8 @@ function rswmpstyling_customizer_css()
 // Account tabs
 $rswmpstyling_memberpress_styling_tabs = get_theme_mod('rswmpstyling_memberpress_styling_tabs');
 
-if ( $rswmpstyling_memberpress_styling_tabs == '1' ) {
- ?>
+    if ($rswmpstyling_memberpress_styling_tabs == '1') {
+        ?>
 body #mepr-account-nav {display: inline-block;width:100%!important;padding: 10px 0 0 0}
   @media only screen and (min-width: 767px) {
     body #mepr-account-nav {border-bottom: 1px solid #ccc;padding-left: 10px;}
@@ -630,14 +644,20 @@ body #mepr-account-nav {display: inline-block;width:100%!important;padding: 10px
   @media only screen and (min-width: 767px) {
     #mepr-account-nav .mepr-active-nav-tab {top:-5px;padding-top:12px;padding-bottom:7px;margin-right:-3px;margin-left:-1px;margin-bottom:-6px}
   }
-<?php } ?>
+<?php
+
+    }
+    ?>
 <?php // Show / Hide on forms
 $rswmpstyling_memberpress_show_pw = get_theme_mod('rswmpstyling_memberpress_show_pw');
-if ( $rswmpstyling_memberpress_show_pw != '1' ) {
-?>
+    if ($rswmpstyling_memberpress_show_pw != '1') {
+        ?>
 body button.button.mp-hide-pw, body button.button.mp-hide-pw:hover {border:none;background:none;color:#000;opacity:0.7;transition:all 0.25s ease-in-out;}
 
-<?php } ?>
+<?php
+
+    }
+    ?>
         </style>
     <?php
 

@@ -426,6 +426,21 @@ function rswmpstyling_customize_register($wp_customize)
             'panel' => 'rswmpstyling_memberpress_styling_panel'
         ));
 
+    $wp_customize->add_setting('rswmpstyling_memberpress_styling_coupon_button', array(
+            'default' => '',
+            'sanitize_callback' => 'esc_html'
+        ));
+
+    $wp_customize->add_control(
+        'rswmpstyling_memberpress_styling_coupon_button',
+        array(
+            'section'   => 'rswmpstyling_memberpress_styling_coupon',
+            'label'     => esc_html__('Disable Coupon link button styling', 'rswmpstyling'),
+            'type'      => 'checkbox',
+            'priority' => 0
+        )
+    );
+
 
     $wp_customize->add_setting('rswmpstyling_memberpress_styling_coupon_bg_color', array(
             'default' => '',
@@ -792,12 +807,12 @@ function rswmpstyling_customize_register($wp_customize)
           ));
 
 
-  $wp_customize->add_setting('rswmpstyling_memberpress_styling_tabs', array(
+    $wp_customize->add_setting('rswmpstyling_memberpress_styling_tabs', array(
           'default' => '',
           'sanitize_callback' => 'esc_html'
       ));
 
-  $wp_customize->add_control(
+    $wp_customize->add_control(
                         'rswmpstyling_memberpress_styling_tabs',
                         array(
                             'section'   => 'rswmpstyling_memberpress_styling_account_tabs',
@@ -831,6 +846,5 @@ function rswmpstyling_customize_register($wp_customize)
             'priority' => 1
         )
     );
-
 }
 add_action('customize_register', 'rswmpstyling_customize_register');

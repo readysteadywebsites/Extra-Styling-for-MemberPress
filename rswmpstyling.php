@@ -67,6 +67,27 @@ require plugin_dir_path(__FILE__) . 'includes/class-rswmpstyling.php';
 require plugin_dir_path(__FILE__) . 'customizer/rswmpstyling-customizer.php';
 require plugin_dir_path(__FILE__) . 'customizer/rswmpstyling-customizer-css.php';
 
+/*
+ * Dismissable Notice for "Pro" release
+*/
+function rswmpstyling_admin_notice()
+{
+    $user_id = get_current_user_id();
+    if (!get_user_meta($user_id, 'rswmpstyling_admin_notice_dismissed')) {
+        echo '<div class="notice notice-info is-dismissible" style="background-color:#e5f5fa;border-top:1px solid #00a0d2;border-right:1px solid #00a0d2;border-bottom:1px solid #00a0d2;"><p>Great News! We now have a "Pro" version of our Extra Styling for MemberPress plugin called <strong>Missing Bits for MemberPress</strong>, <a href="https://readysteadywebsites.com/rswmpmbits" target="_blank">click here to check it out</a> (if you want to, no pressure!).</p><p><a href="?rswmpstyling-dismissed">Dismiss</a></p></div>';
+    }
+}
+add_action('admin_notices', 'rswmpstyling_admin_notice');
+
+function rswmpstyling_admin_notice_dismissed()
+{
+    $user_id = get_current_user_id();
+    if (isset($_GET['rswmpstyling-dismissed'])) {
+        add_user_meta($user_id, 'rswmpstyling_admin_notice_dismissed', 'true', true);
+    }
+}
+add_action('admin_init', 'rswmpstyling_admin_notice_dismissed');
+
 /**
  * Begins execution of the plugin.
  *

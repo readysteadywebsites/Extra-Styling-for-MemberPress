@@ -10,7 +10,7 @@
  * Plugin Name:       Extra Styling for MemberPress
  * Plugin URI:        https://readysteadywebsites.com/styling-memberpress/
  * Description:       Just a little plugin to make MemberPress registration and login pages look a little nice. Allows easy styling of buttons right from the customizer.
- * Version:           1.0.4
+ * Version:           1.0.5
  * Author:            Ready Steady Websites
  * Author URI:        https://readysteadywebsites.com
  * License:           GPL-2.0+
@@ -29,7 +29,7 @@ if (! defined('WPINC')) {
  * Start at version 1.0.0 and use SemVer - https://semver.org
  * Rename this for your plugin and update it as you release new versions.
  */
-define('RSW_MP_STYLING_VERSION', '1.0.4');
+define('RSW_MP_STYLING_VERSION', '1.0.5');
 
 /**
  * The code that runs during plugin activation.
@@ -73,20 +73,20 @@ require plugin_dir_path(__FILE__) . 'customizer/rswmpstyling-customizer-css.php'
 function rswmpstyling_admin_notice()
 {
     $user_id = get_current_user_id();
-    if (!get_user_meta($user_id, 'rswmpstyling_admin_notice_dismissed')) {
-        echo '<div class="notice notice-info is-dismissible" style="background-color:#e5f5fa;border-top:1px solid #00a0d2;border-right:1px solid #00a0d2;border-bottom:1px solid #00a0d2;"><p>Great News! We now have a "Pro" version of our Extra Styling for MemberPress plugin called <strong>Missing Bits for MemberPress</strong>, <a href="https://readysteadywebsites.com/rswmpmbits" target="_blank">click here to check it out</a> (if you want to, no pressure!).</p><p><a href="?rswmpstyling-dismissed">Dismiss</a></p></div>';
+    if (!get_user_meta($user_id, 'rswmpstyling_admin_notice_offer_dismissed')) {
+        echo '<div class="notice notice-info is-dismissible" style="background-color:#e5f5fa;border-top:1px solid #00a0d2;border-right:1px solid #00a0d2;border-bottom:1px solid #00a0d2;"><p><strong>Looking for LOADS MORE styling options, Course styling options plus even more?</strong><br><br>We now have a "Pro" version of our Extra Styling for MemberPress plugin called <strong>Missing Bits for MemberPress</strong>!<br><br><strong><a href="https://readysteadywebsites.com/rswmpmbits30off" target="_blank">Enter "3OFF" at the checkout to get 30% off for a limited time!</a></strong></p><p><a href="?rswmpstyling-offer">Dismiss</a></p></div>';
     }
 }
 add_action('admin_notices', 'rswmpstyling_admin_notice');
 
-function rswmpstyling_admin_notice_dismissed()
+function rswmpstyling_admin_notice_offer_dismissed()
 {
     $user_id = get_current_user_id();
-    if (isset($_GET['rswmpstyling-dismissed'])) {
-        add_user_meta($user_id, 'rswmpstyling_admin_notice_dismissed', 'true', true);
+    if (isset($_GET['rswmpstyling-offer'])) {
+        add_user_meta($user_id, 'rswmpstyling_admin_notice_offer_dismissed', 'true', true);
     }
 }
-add_action('admin_init', 'rswmpstyling_admin_notice_dismissed');
+add_action('admin_init', 'rswmpstyling_admin_notice_offer_dismissed');
 
 /**
  * Begins execution of the plugin.

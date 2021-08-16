@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2021-01-04 20:54+0000\n"
-"PO-Revision-Date: 2021-01-04 20:54+0000\n"
-"Last-Translator: MeanThemes <themes@meanthemes.com>\n"
+"POT-Creation-Date: 2021-08-15 19:51+0100\n"
+"PO-Revision-Date: 2021-08-15 19:52+0100\n"
+"Last-Translator: Ready Steady Websites <support@readysteadywebsites.com>\n"
 "Language-Team: \n"
 "Language: en_GB\n"
 "MIME-Version: 1.0\n"
@@ -28,91 +28,91 @@ msgid "Buttons across all MemberPress pages (Login, Register etc.)"
 msgstr ""
 
 #: customizer/rswmpstyling-customizer.php:162
-#: customizer/rswmpstyling-customizer.php:436
-#: customizer/rswmpstyling-customizer.php:726
+#: customizer/rswmpstyling-customizer.php:451
+#: customizer/rswmpstyling-customizer.php:741
 msgid "Background Colour"
 msgstr ""
 
 #: customizer/rswmpstyling-customizer.php:173
-#: customizer/rswmpstyling-customizer.php:447
+#: customizer/rswmpstyling-customizer.php:462
 msgid "Background Hover Colour"
 msgstr ""
 
 #: customizer/rswmpstyling-customizer.php:184
-#: customizer/rswmpstyling-customizer.php:458
-#: customizer/rswmpstyling-customizer.php:737
+#: customizer/rswmpstyling-customizer.php:473
+#: customizer/rswmpstyling-customizer.php:752
 msgid "Text Colour"
 msgstr ""
 
 #: customizer/rswmpstyling-customizer.php:195
-#: customizer/rswmpstyling-customizer.php:469
+#: customizer/rswmpstyling-customizer.php:484
 msgid "Text Colour Hover"
 msgstr ""
 
 #: customizer/rswmpstyling-customizer.php:207
-#: customizer/rswmpstyling-customizer.php:481
-#: customizer/rswmpstyling-customizer.php:749
+#: customizer/rswmpstyling-customizer.php:496
+#: customizer/rswmpstyling-customizer.php:764
 msgid "Border Colour"
 msgstr ""
 
 #: customizer/rswmpstyling-customizer.php:218
-#: customizer/rswmpstyling-customizer.php:492
+#: customizer/rswmpstyling-customizer.php:507
 msgid "Border Hover Colour"
 msgstr ""
 
 #: customizer/rswmpstyling-customizer.php:231
-#: customizer/rswmpstyling-customizer.php:505
-#: customizer/rswmpstyling-customizer.php:761
+#: customizer/rswmpstyling-customizer.php:520
+#: customizer/rswmpstyling-customizer.php:776
 msgid "Border Width"
 msgstr ""
 
 #: customizer/rswmpstyling-customizer.php:249
-#: customizer/rswmpstyling-customizer.php:523
+#: customizer/rswmpstyling-customizer.php:538
 msgid "Border Radius"
 msgstr ""
 
 #: customizer/rswmpstyling-customizer.php:267
-#: customizer/rswmpstyling-customizer.php:541
+#: customizer/rswmpstyling-customizer.php:556
 msgid "Padding Top &amp; Bottom"
 msgstr ""
 
 #: customizer/rswmpstyling-customizer.php:286
-#: customizer/rswmpstyling-customizer.php:560
+#: customizer/rswmpstyling-customizer.php:575
 msgid "Padding Left &amp; Right"
 msgstr ""
 
 #: customizer/rswmpstyling-customizer.php:304
-#: customizer/rswmpstyling-customizer.php:578
+#: customizer/rswmpstyling-customizer.php:593
 msgid "Letter Spacing"
 msgstr ""
 
 #: customizer/rswmpstyling-customizer.php:324
-#: customizer/rswmpstyling-customizer.php:615
+#: customizer/rswmpstyling-customizer.php:630
 msgid "Font Size: Mobile"
 msgstr ""
 
 #: customizer/rswmpstyling-customizer.php:344
-#: customizer/rswmpstyling-customizer.php:633
+#: customizer/rswmpstyling-customizer.php:648
 msgid "Font Size: Tablet"
 msgstr ""
 
 #: customizer/rswmpstyling-customizer.php:362
-#: customizer/rswmpstyling-customizer.php:651
+#: customizer/rswmpstyling-customizer.php:666
 msgid "Font Size: Desktop"
 msgstr ""
 
 #: customizer/rswmpstyling-customizer.php:384
-#: customizer/rswmpstyling-customizer.php:673
+#: customizer/rswmpstyling-customizer.php:688
 msgid "Make Button Text Uppercase"
 msgstr ""
 
 #: customizer/rswmpstyling-customizer.php:399
-#: customizer/rswmpstyling-customizer.php:688
+#: customizer/rswmpstyling-customizer.php:703
 msgid "Make Button Full Width"
 msgstr ""
 
 #: customizer/rswmpstyling-customizer.php:414
-#: customizer/rswmpstyling-customizer.php:703
+#: customizer/rswmpstyling-customizer.php:718
 msgid "Make Button Centered"
 msgstr ""
 
@@ -124,42 +124,46 @@ msgstr ""
 msgid "Just the coupon button when registering/joining."
 msgstr ""
 
-#: customizer/rswmpstyling-customizer.php:597
+#: customizer/rswmpstyling-customizer.php:438
+msgid "Disable Coupon link button styling"
+msgstr ""
+
+#: customizer/rswmpstyling-customizer.php:612
 msgid "Max Button Width"
 msgstr ""
 
-#: customizer/rswmpstyling-customizer.php:714
+#: customizer/rswmpstyling-customizer.php:729
 msgid "Price &amp; Terms Box"
 msgstr ""
 
-#: customizer/rswmpstyling-customizer.php:715
+#: customizer/rswmpstyling-customizer.php:730
 msgid "Terms and Price box on Register pages."
 msgstr ""
 
-#: customizer/rswmpstyling-customizer.php:779
+#: customizer/rswmpstyling-customizer.php:794
 msgid "Make Text Centered"
 msgstr ""
 
-#: customizer/rswmpstyling-customizer.php:789
+#: customizer/rswmpstyling-customizer.php:804
 msgid "Account Tabs"
 msgstr ""
 
-#: customizer/rswmpstyling-customizer.php:790
+#: customizer/rswmpstyling-customizer.php:805
 msgid "Switch on some basic styling for MemberPress account tabs."
 msgstr ""
 
-#: customizer/rswmpstyling-customizer.php:804
+#: customizer/rswmpstyling-customizer.php:819
 msgid "Style account links as tabs"
 msgstr ""
 
-#: customizer/rswmpstyling-customizer.php:814
+#: customizer/rswmpstyling-customizer.php:829
 msgid "Forms"
 msgstr ""
 
-#: customizer/rswmpstyling-customizer.php:815
+#: customizer/rswmpstyling-customizer.php:830
 msgid "Simple controls for forms."
 msgstr ""
 
-#: customizer/rswmpstyling-customizer.php:829
+#: customizer/rswmpstyling-customizer.php:844
 msgid "Reinstate button styles for password show/hide control"
 msgstr ""

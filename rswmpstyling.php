@@ -9,7 +9,7 @@
  * @wordpress-plugin
  * Plugin Name:       Extra Styling for MemberPress
  * Plugin URI:        https://readysteadywebsites.com/styling-memberpress/
- * Description:       Just a little plugin to make MemberPress registration and login pages look a little nice. Allows easy styling of buttons right from the customizer.
+ * Description:       Just a little plugin to make MemberPress registration and login pages look a little nicer. Allows easy styling of buttons right from the customizer.
  * Version:           1.0.6
  * Author:            Ready Steady Websites
  * Author URI:        https://readysteadywebsites.com

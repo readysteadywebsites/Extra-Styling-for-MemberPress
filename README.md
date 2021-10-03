@@ -40,16 +40,22 @@ When you're done click 'Publish' in the customizer.
 = 1.0.6 =
 * Fixes for compatibility with OceanWP theme for range sliders
 * Fixes for border style not set when border width is set
+
 = 1.0.5 =
 * Updated Translation files.
+
 = 1.0.4 =
 * Fix for coupon button not staying full width. Added additional checkbox to switch coupon button back to a standard link.
+
 = 1.0.3 =
 * Styling fix for 1.9.10 version of MemberPress password show/hide field
+
 = 1.0.2 =
 * Added "Forms" control into Customizer - this auto disables the new MemberPress password show/hide field styling, but you can reinstate from the Customizer
+
 = 1.0.1 =
 * Switched on some basic styling for Account links to turn them into tabs
+
 = 1.0.0 =
 * Initial Version
 

@@ -22,7 +22,9 @@
             range.on('input', function() {
 				var suffix = ($(this).attr('suffix')) ? $(this).attr('suffix') : '';
                 $(this).next(value).html(this.value + suffix );
+                $(this).attr('value', this.value);
             });
+
         });
     };
 

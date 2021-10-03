@@ -229,7 +229,7 @@ function rswmpstyling_customize_register($wp_customize)
     $wp_customize->add_control(new Customizer_Range_Value_Control($wp_customize, 'rswmpstyling_memberpress_styling_button_border_width', array(
         'section' => 'rswmpstyling_memberpress_styling',
         'label' => esc_html__('Border Width', 'rswmpstyling'),
-        'type' => 'range-value',
+        'type' => 'rsw-range',
         'input_attrs' => array(
             'max' => 20,
             'step' => 1,
@@ -247,7 +247,7 @@ function rswmpstyling_customize_register($wp_customize)
     $wp_customize->add_control(new Customizer_Range_Value_Control($wp_customize, 'rswmpstyling_memberpress_styling_button_border_radius', array(
         'section' => 'rswmpstyling_memberpress_styling',
         'label' => esc_html__('Border Radius', 'rswmpstyling'),
-        'type' => 'range-value',
+        'type' => 'rsw-range',
         'input_attrs' => array(
             'min' => 0,
             'max' => 100,
@@ -265,7 +265,7 @@ function rswmpstyling_customize_register($wp_customize)
     $wp_customize->add_control(new Customizer_Range_Value_Control($wp_customize, 'rswmpstyling_memberpress_styling_button_padding_top_bottom', array(
         'section' => 'rswmpstyling_memberpress_styling',
         'label' => esc_html__('Padding Top &amp; Bottom', 'rswmpstyling'),
-        'type' => 'range-value',
+        'type' => 'rsw-range',
         'input_attrs' => array(
             'min' => 0,
             'max' => 100,
@@ -284,7 +284,7 @@ function rswmpstyling_customize_register($wp_customize)
     $wp_customize->add_control(new Customizer_Range_Value_Control($wp_customize, 'rswmpstyling_memberpress_styling_button_padding_right_left', array(
         'section' => 'rswmpstyling_memberpress_styling',
         'label' => esc_html__('Padding Left &amp; Right', 'rswmpstyling'),
-        'type' => 'range-value',
+        'type' => 'rsw-range',
         'input_attrs' => array(
             'min' => 0,
             'max' => 100,
@@ -302,7 +302,7 @@ function rswmpstyling_customize_register($wp_customize)
     $wp_customize->add_control(new Customizer_Range_Value_Control($wp_customize, 'rswmpstyling_memberpress_styling_button_letter_spacing', array(
         'section' => 'rswmpstyling_memberpress_styling',
         'label' => esc_html__('Letter Spacing', 'rswmpstyling'),
-        'type' => 'range-value',
+        'type' => 'rsw-range',
         'input_attrs' => array(
             'min' => 0,
             'max' => 20,
@@ -322,7 +322,7 @@ function rswmpstyling_customize_register($wp_customize)
     $wp_customize->add_control(new Customizer_Range_Value_Control($wp_customize, 'rswmpstyling_memberpress_styling_button_font_size_mobile', array(
         'section' => 'rswmpstyling_memberpress_styling',
         'label' => esc_html__('Font Size: Mobile', 'rswmpstyling'),
-        'type' => 'range-value',
+        'type' => 'rsw-range',
         'input_attrs' => array(
             'min' => 0,
             'max' => 100,
@@ -342,7 +342,7 @@ function rswmpstyling_customize_register($wp_customize)
     $wp_customize->add_control(new Customizer_Range_Value_Control($wp_customize, 'rswmpstyling_memberpress_styling_button_font_size_tablet', array(
         'section' => 'rswmpstyling_memberpress_styling',
         'label' => esc_html__('Font Size: Tablet', 'rswmpstyling'),
-        'type' => 'range-value',
+        'type' => 'rsw-range',
         'input_attrs' => array(
             'min' => 0,
             'max' => 100,
@@ -360,7 +360,7 @@ function rswmpstyling_customize_register($wp_customize)
     $wp_customize->add_control(new Customizer_Range_Value_Control($wp_customize, 'rswmpstyling_memberpress_styling_button_font_size_desktop', array(
         'section' => 'rswmpstyling_memberpress_styling',
         'label' => esc_html__('Font Size: Desktop', 'rswmpstyling'),
-        'type' => 'range-value',
+        'type' => 'rsw-range',
         'input_attrs' => array(
             'min' => 0,
             'max' => 100,
@@ -518,7 +518,7 @@ function rswmpstyling_customize_register($wp_customize)
     $wp_customize->add_control(new Customizer_Range_Value_Control($wp_customize, 'rswmpstyling_memberpress_styling_coupon_border_width', array(
             'section' => 'rswmpstyling_memberpress_styling_coupon',
             'label' => esc_html__('Border Width', 'rswmpstyling'),
-            'type' => 'range-value',
+            'type' => 'rsw-range',
             'input_attrs' => array(
                 'max' => 20,
                 'step' => 1,
@@ -536,7 +536,7 @@ function rswmpstyling_customize_register($wp_customize)
     $wp_customize->add_control(new Customizer_Range_Value_Control($wp_customize, 'rswmpstyling_memberpress_styling_coupon_border_radius', array(
             'section' => 'rswmpstyling_memberpress_styling_coupon',
             'label' => esc_html__('Border Radius', 'rswmpstyling'),
-            'type' => 'range-value',
+            'type' => 'rsw-range',
             'input_attrs' => array(
                 'min' => 0,
                 'max' => 100,
@@ -554,7 +554,7 @@ function rswmpstyling_customize_register($wp_customize)
     $wp_customize->add_control(new Customizer_Range_Value_Control($wp_customize, 'rswmpstyling_memberpress_styling_coupon_padding_top_bottom', array(
             'section' => 'rswmpstyling_memberpress_styling_coupon',
             'label' => esc_html__('Padding Top &amp; Bottom', 'rswmpstyling'),
-            'type' => 'range-value',
+            'type' => 'rsw-range',
             'input_attrs' => array(
                 'min' => 0,
                 'max' => 100,
@@ -573,7 +573,7 @@ function rswmpstyling_customize_register($wp_customize)
     $wp_customize->add_control(new Customizer_Range_Value_Control($wp_customize, 'rswmpstyling_memberpress_styling_coupon_padding_right_left', array(
             'section' => 'rswmpstyling_memberpress_styling_coupon',
             'label' => esc_html__('Padding Left &amp; Right', 'rswmpstyling'),
-            'type' => 'range-value',
+            'type' => 'rsw-range',
             'input_attrs' => array(
                 'min' => 0,
                 'max' => 100,
@@ -591,7 +591,7 @@ function rswmpstyling_customize_register($wp_customize)
     $wp_customize->add_control(new Customizer_Range_Value_Control($wp_customize, 'rswmpstyling_memberpress_styling_coupon_letter_spacing', array(
             'section' => 'rswmpstyling_memberpress_styling_coupon',
             'label' => esc_html__('Letter Spacing', 'rswmpstyling'),
-            'type' => 'range-value',
+            'type' => 'rsw-range',
             'input_attrs' => array(
                 'min' => 0,
                 'max' => 20,
@@ -610,7 +610,7 @@ function rswmpstyling_customize_register($wp_customize)
     $wp_customize->add_control(new Customizer_Range_Value_Control($wp_customize, 'rswmpstyling_memberpress_styling_coupon_button_width', array(
             'section' => 'rswmpstyling_memberpress_styling_coupon',
             'label' => esc_html__('Max Button Width', 'rswmpstyling'),
-            'type' => 'range-value',
+            'type' => 'rsw-range',
             'input_attrs' => array(
                 'min' => 0,
                 'max' => 500,
@@ -628,7 +628,7 @@ function rswmpstyling_customize_register($wp_customize)
     $wp_customize->add_control(new Customizer_Range_Value_Control($wp_customize, 'rswmpstyling_memberpress_styling_coupon_font_size_mobile', array(
             'section' => 'rswmpstyling_memberpress_styling_coupon',
             'label' => esc_html__('Font Size: Mobile', 'rswmpstyling'),
-            'type' => 'range-value',
+            'type' => 'rsw-range',
             'input_attrs' => array(
                 'min' => 0,
                 'max' => 100,
@@ -646,7 +646,7 @@ function rswmpstyling_customize_register($wp_customize)
     $wp_customize->add_control(new Customizer_Range_Value_Control($wp_customize, 'rswmpstyling_memberpress_styling_coupon_font_size_tablet', array(
             'section' => 'rswmpstyling_memberpress_styling_coupon',
             'label' => esc_html__('Font Size: Tablet', 'rswmpstyling'),
-            'type' => 'range-value',
+            'type' => 'rsw-range',
             'input_attrs' => array(
                 'min' => 0,
                 'max' => 100,
@@ -664,7 +664,7 @@ function rswmpstyling_customize_register($wp_customize)
     $wp_customize->add_control(new Customizer_Range_Value_Control($wp_customize, 'rswmpstyling_memberpress_styling_coupon_font_size_desktop', array(
             'section' => 'rswmpstyling_memberpress_styling_coupon',
             'label' => esc_html__('Font Size: Desktop', 'rswmpstyling'),
-            'type' => 'range-value',
+            'type' => 'rsw-range',
             'input_attrs' => array(
                 'min' => 0,
                 'max' => 100,
@@ -774,7 +774,7 @@ function rswmpstyling_customize_register($wp_customize)
     $wp_customize->add_control(new Customizer_Range_Value_Control($wp_customize, 'rswmpstyling_memberpress_styling_price_box_border_width', array(
         'section' => 'rswmpstyling_memberpress_styling_price',
         'label' => esc_html__('Border Width', 'rswmpstyling'),
-        'type' => 'range-value',
+        'type' => 'rsw-range',
         'input_attrs' => array(
             'max' => 20,
             'step' => 1,

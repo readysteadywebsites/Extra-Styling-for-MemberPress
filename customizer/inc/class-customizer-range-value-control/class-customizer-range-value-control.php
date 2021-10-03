@@ -1,6 +1,6 @@
 <?php
 class Customizer_Range_Value_Control extends \WP_Customize_Control {
-	public $type = 'range-value';
+	public $type = 'rsw-range';
 
 	/**
 	 * Enqueue scripts/styles.
@@ -8,7 +8,8 @@ class Customizer_Range_Value_Control extends \WP_Customize_Control {
 	 * @since 3.4.0
 	 */
 	public function enqueue() {
-		wp_enqueue_script( 'customizer-range-value-control', $this->abs_path_to_url( dirname( __FILE__ ) . '/js/customizer-range-value-control.js' ), array( 'jquery' ), rand(), true );
+		wp_dequeue_script('oceanwp-range');
+		wp_enqueue_script( 'customizer-range-value-control', $this->abs_path_to_url( dirname( __FILE__ ) . '/js/customizer-range-value-control.js' ), array( 'jquery', 'customize-base' ), rand(), true );
 		wp_enqueue_style( 'customizer-range-value-control', $this->abs_path_to_url( dirname( __FILE__ ) . '/css/customizer-range-value-control.css' ), array(), rand() );
 	}
 
@@ -29,7 +30,10 @@ class Customizer_Range_Value_Control extends \WP_Customize_Control {
 																																					$this->link();
 																																					?>
 				>
+
 				<span class="range-slider__value">0</span></span>
+
+
 			</div>
 			<?php if ( ! empty( $this->description ) ) : ?>
 			<span class="description customize-control-description"><?php echo $this->description; ?></span>

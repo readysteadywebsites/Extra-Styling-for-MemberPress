@@ -110,6 +110,7 @@ function rswmpstyling_customizer_css()
         ?>
                      <?php if ($rswmpstyling_memberpress_styling_button_border_width) {
             ?>
+                      border-style: solid;
                       border-width: <?php echo esc_attr($rswmpstyling_memberpress_styling_button_border_width);
             ?>px !important;
                      <?php
@@ -228,6 +229,7 @@ function rswmpstyling_customizer_css()
 
                      <?php if ($rswmpstyling_memberpress_styling_button_border_width) {
             ?>
+                      border-style: solid;
                       border-width: <?php echo esc_attr($rswmpstyling_memberpress_styling_button_border_width);
             ?>px !important;
                      <?php
@@ -387,6 +389,7 @@ function rswmpstyling_customizer_css()
                  ?>
                      <?php if ($rswmpstyling_memberpress_styling_coupon_border_width) {
                      ?>
+                      border-style: solid;
                       border-width: <?php echo esc_attr($rswmpstyling_memberpress_styling_coupon_border_width);
                      ?>px !important;
                      <?php

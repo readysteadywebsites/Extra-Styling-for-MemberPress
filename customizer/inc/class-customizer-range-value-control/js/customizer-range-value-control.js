@@ -3,26 +3,30 @@
  */
 (function($) {
     wp.customize.bind('ready', function() {
-        rangeSlider();
+        rswRangeSlider();
+
     });
 
-    var rangeSlider = function() {
-        var slider = $('.range-slider'),
-            range = $('.range-slider__range'),
-            value = $('.range-slider__value');
+    var rswRangeSlider = function() {
+        var rswSlider = $('.range-slider'),
+            rswRange = $('.range-slider__range'),
+            rswValue = $('.range-slider__value');
 
-        slider.each(function() {
+        rswSlider.each(function() {
 
-            value.each(function() {
-                var value = $(this).prev().attr('value');
+            rswValue.each(function() {
+                var rswValue = $(this).prev().attr('value');
 				var suffix = ($(this).prev().attr('suffix')) ? $(this).prev().attr('suffix') : '';
-                $(this).html(value + suffix);
+                $(this).html(rswValue + suffix);
             });
 
-            range.on('input', function() {
-				var suffix = ($(this).attr('suffix')) ? $(this).attr('suffix') : '';
-                $(this).next(value).html(this.value + suffix );
-                $(this).attr('value', this.value);
+            // Update the text value
+        rswRange
+            .on("input", function () {
+                var suffix = ($(this).attr('suffix')) ? $(this).attr('suffix') : '';
+                        $(this).next(rswValue).html(this.value + suffix );
+                        $(this).attr('value', this.value);
+                        //$(this).parent().parent().next('.oceanwp-range-input').attr('value', this.value);
             });
 
         });

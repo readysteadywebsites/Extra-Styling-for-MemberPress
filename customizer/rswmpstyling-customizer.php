@@ -235,7 +235,7 @@ function rswmpstyling_customize_register($wp_customize)
             'step' => 1,
             'suffix' => 'px' //optional suffix
         ),
-        'priority' => 7
+        'priority' => 17
     )));
 
     $wp_customize->add_setting('rswmpstyling_memberpress_styling_button_border_radius', array(
@@ -254,7 +254,7 @@ function rswmpstyling_customize_register($wp_customize)
             'step' => 1,
             'suffix' => 'px' //optional suffix
         ),
-        'priority' => 7
+        'priority' => 18
     )));
 
     $wp_customize->add_setting('rswmpstyling_memberpress_styling_button_padding_top_bottom', array(
@@ -272,7 +272,7 @@ function rswmpstyling_customize_register($wp_customize)
             'step' => 1,
             'suffix' => 'px' //optional suffix
         ),
-        'priority' => 8
+        'priority' => 19
     )));
 
 
@@ -291,7 +291,7 @@ function rswmpstyling_customize_register($wp_customize)
             'step' => 1,
             'suffix' => 'px' //optional suffix
         ),
-        'priority' => 9
+        'priority' => 20
     )));
 
     $wp_customize->add_setting('rswmpstyling_memberpress_styling_button_letter_spacing', array(
@@ -309,7 +309,7 @@ function rswmpstyling_customize_register($wp_customize)
             'step' => 1,
             'suffix' => 'px' //optional suffix
         ),
-        'priority' => 10
+        'priority' => 21
     )));
 
 
@@ -329,7 +329,7 @@ function rswmpstyling_customize_register($wp_customize)
             'step' => 1,
             'suffix' => 'px' //optional suffix
         ),
-        'priority' => 11
+        'priority' => 22
     )));
 
 
@@ -349,7 +349,7 @@ function rswmpstyling_customize_register($wp_customize)
             'step' => 1,
             'suffix' => 'px' //optional suffix
         ),
-        'priority' => 12
+        'priority' => 23
     )));
 
     $wp_customize->add_setting('rswmpstyling_memberpress_styling_button_font_size_desktop', array(
@@ -367,7 +367,7 @@ function rswmpstyling_customize_register($wp_customize)
             'step' => 1,
             'suffix' => 'px' //optional suffix
         ),
-        'priority' => 13
+        'priority' => 24
     )));
 
 
@@ -524,7 +524,7 @@ function rswmpstyling_customize_register($wp_customize)
                 'step' => 1,
                 'suffix' => 'px' //optional suffix
             ),
-            'priority' => 7
+            'priority' => 17
         )));
 
     $wp_customize->add_setting('rswmpstyling_memberpress_styling_coupon_border_radius', array(
@@ -543,7 +543,7 @@ function rswmpstyling_customize_register($wp_customize)
                 'step' => 1,
                 'suffix' => 'px' //optional suffix
             ),
-            'priority' => 7
+            'priority' => 18
         )));
 
     $wp_customize->add_setting('rswmpstyling_memberpress_styling_coupon_padding_top_bottom', array(
@@ -561,7 +561,7 @@ function rswmpstyling_customize_register($wp_customize)
                 'step' => 1,
                 'suffix' => 'px' //optional suffix
             ),
-            'priority' => 8
+            'priority' => 19
         )));
 
 
@@ -580,7 +580,7 @@ function rswmpstyling_customize_register($wp_customize)
                 'step' => 1,
                 'suffix' => 'px' //optional suffix
             ),
-            'priority' => 9
+            'priority' => 20
         )));
 
     $wp_customize->add_setting('rswmpstyling_memberpress_styling_coupon_letter_spacing', array(
@@ -598,7 +598,7 @@ function rswmpstyling_customize_register($wp_customize)
                 'step' => 1,
                 'suffix' => 'px' //optional suffix
             ),
-            'priority' => 10
+            'priority' => 21
         )));
 
 
@@ -606,6 +606,7 @@ function rswmpstyling_customize_register($wp_customize)
             'default' => '250',
             'sanitize_callback' => 'esc_html'
         ));
+
 
     $wp_customize->add_control(new Customizer_Range_Value_Control($wp_customize, 'rswmpstyling_memberpress_styling_coupon_button_width', array(
             'section' => 'rswmpstyling_memberpress_styling_coupon',
@@ -617,7 +618,7 @@ function rswmpstyling_customize_register($wp_customize)
                 'step' => 10,
                 'suffix' => 'px' //optional suffix
             ),
-            'priority' => 10
+            'priority' => 22
         )));
 
     $wp_customize->add_setting('rswmpstyling_memberpress_styling_coupon_font_size_mobile', array(
@@ -635,7 +636,7 @@ function rswmpstyling_customize_register($wp_customize)
                 'step' => 1,
                 'suffix' => 'px' //optional suffix
             ),
-            'priority' => 11
+            'priority' => 23
         )));
 
     $wp_customize->add_setting('rswmpstyling_memberpress_styling_coupon_font_size_tablet', array(
@@ -653,7 +654,7 @@ function rswmpstyling_customize_register($wp_customize)
                 'step' => 1,
                 'suffix' => 'px' //optional suffix
             ),
-            'priority' => 12
+            'priority' => 24
         )));
 
     $wp_customize->add_setting('rswmpstyling_memberpress_styling_coupon_font_size_desktop', array(
@@ -671,7 +672,7 @@ function rswmpstyling_customize_register($wp_customize)
                 'step' => 1,
                 'suffix' => 'px' //optional suffix
             ),
-            'priority' => 13
+            'priority' => 25
         )));
 
 
@@ -731,6 +732,21 @@ function rswmpstyling_customize_register($wp_customize)
                 'panel' => 'rswmpstyling_memberpress_styling_panel'
             ));
 
+      $wp_customize->add_setting('rswmpstyling_memberpress_styling_price_box_centered', array(
+          'default' => '',
+          'sanitize_callback' => 'esc_html'
+      ));
+
+      $wp_customize->add_control(
+                        'rswmpstyling_memberpress_styling_price_box_centered',
+                        array(
+                            'section'   => 'rswmpstyling_memberpress_styling_price',
+                            'label'     => esc_html__('Make Text Centered', 'rswmpstyling'),
+                            'type'      => 'checkbox',
+                            'priority' => 0
+                        )
+                    );
+
 
     $wp_customize->add_setting('rswmpstyling_memberpress_styling_price_box_bg', array(
                 'default' => '',
@@ -780,22 +796,9 @@ function rswmpstyling_customize_register($wp_customize)
             'step' => 1,
             'suffix' => 'px' //optional suffix
         ),
-        'priority' => 4
+        'priority' => 12
     )));
-    $wp_customize->add_setting('rswmpstyling_memberpress_styling_price_box_centered', array(
-        'default' => '',
-        'sanitize_callback' => 'esc_html'
-    ));
 
-    $wp_customize->add_control(
-                      'rswmpstyling_memberpress_styling_price_box_centered',
-                      array(
-                          'section'   => 'rswmpstyling_memberpress_styling_price',
-                          'label'     => esc_html__('Make Text Centered', 'rswmpstyling'),
-                          'type'      => 'checkbox',
-                          'priority' => 5
-                      )
-                  );
 
       // Account Tabs
 

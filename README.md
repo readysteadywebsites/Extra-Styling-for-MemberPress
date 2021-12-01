@@ -3,8 +3,8 @@ Contributors: readysteadywebsites
 Donate link: https://readysteadywebsites.com/styling-memberpress/
 Tags: memberpress, customizer, registration, readsteadywebsites, css, styling, sign up
 Requires at least: 5.1
-Tested up to: 5.8.1
-Stable tag: 1.0.7
+Tested up to: 5.8.2
+Stable tag: 1.0.8
 Requires PHP: 7.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -36,6 +36,9 @@ When you're done click 'Publish' in the customizer.
 5. Styling price and terms box screenshot-5.png
 
 == Changelog ==
+
+= 1.0.8 =
+* Updated translation files, admin warning error fixed.
 
 = 1.0.7 =
 * Reorganisation of range control order to keep OceanWP theme happy

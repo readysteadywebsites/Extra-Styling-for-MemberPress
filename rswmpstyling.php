@@ -10,7 +10,7 @@
  * Plugin Name:       Extra Styling for MemberPress
  * Plugin URI:        https://readysteadywebsites.com/styling-memberpress/
  * Description:       Just a little plugin to make MemberPress registration and login pages look a little nicer. Allows easy styling of buttons right from the customizer.
- * Version:           1.0.7
+ * Version:           1.0.8
  * Author:            Ready Steady Websites
  * Author URI:        https://readysteadywebsites.com
  * License:           GPL-2.0+
@@ -29,7 +29,7 @@ if (! defined('WPINC')) {
  * Start at version 1.0.0 and use SemVer - https://semver.org
  * Rename this for your plugin and update it as you release new versions.
  */
-define('RSW_MP_STYLING_VERSION', '1.0.7');
+define('RSW_MP_STYLING_VERSION', '1.0.8');
 
 /**
  * The code that runs during plugin activation.
@@ -73,20 +73,20 @@ require plugin_dir_path(__FILE__) . 'customizer/rswmpstyling-customizer-css.php'
 function rswmpstyling_admin_notice()
 {
     $user_id = get_current_user_id();
-    if (!get_user_meta($user_id, 'rswmpstyling_admin_notice_offer_05102021')) {
-        echo '<div class="notice notice-info is-dismissible" style="background-color:#e5f5fa;border-top:1px solid #00a0d2;border-right:1px solid #00a0d2;border-bottom:1px solid #00a0d2;"><p><strong><span style="font-size:1.25rem">OFFER ENDING SOON!</span><br><br>Looking for LOADS MORE styling options, Course styling options plus even more?</strong><br><br>We now have a "Pro" version of our Extra Styling for MemberPress plugin called <strong>Missing Bits for MemberPress</strong>!<br><br><strong style="font-size:1rem">🛒 <a href="https://readysteadywebsites.com/rswmpmbits30off" target="_blank">Offer ending soon! Enter "3OFF" at the checkout to get 30% off for a limited time!</a></strong></p><p><a href="?rswmpstyling-offer">Dismiss</a></p></div>';
+    if (!get_user_meta($user_id, 'rswmpstyling_admin_notice_offer_24112021')) {
+        echo '<div class="notice notice-info is-dismissible" style="background-color:#e5f9dc;border-color: #a0dd85;"><p><strong><span style="font-size:1.25rem">Go Pro with 50% off!</span><br><br>Looking for LOADS MORE styling options, Course styling options plus even more?</strong><br><br>Did you know we have a "Pro" version of our Extra Styling for MemberPress plugin called <strong>Missing Bits for MemberPress</strong>!<br><br><strong style="font-size:1rem">🛒&nbsp; &nbsp;  <a href="https://readysteadywebsites.com/rswmpmbitsdec50" target="_blank">Enter "DEC50" at the checkout to get 50% off today!</a></strong></p><p><a href="?rswmpstyling-offer">Dismiss</a></p></div>';
     }
 }
 add_action('admin_notices', 'rswmpstyling_admin_notice');
 
-function rswmpstyling_admin_notice_offer_05102021()
+function rswmpstyling_admin_notice_offer_24112021()
 {
     $user_id = get_current_user_id();
     if (isset($_GET['rswmpstyling-offer'])) {
-        add_user_meta($user_id, 'rswmpstyling_admin_notice_offer_05102021', 'true', true);
+        add_user_meta($user_id, 'rswmpstyling_admin_notice_offer_24112021', 'true', true);
     }
 }
-add_action('admin_init', 'rswmpstyling_admin_notice_offer_05102021');
+add_action('admin_init', 'rswmpstyling_admin_notice_offer_24112021');
 
 /**
  * Begins execution of the plugin.

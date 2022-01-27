@@ -24,7 +24,7 @@ class Customizer_Range_Value_Control extends \WP_Customize_Control {
 		<label>
 			<span class="customize-control-title"><?php echo esc_html( $this->label ); ?></span>
 			<div class="range-slider"  style="width:100%; display:flex;flex-direction: row;justify-content: flex-start;">
-				<span  style="width:100%; flex: 1 0 0; vertical-align: middle;"><input class="range-slider__range" type="range" value="<?php echo esc_attr( $this->value() ); ?>"
+				<span  style="width:100%; flex: 1 0 0; vertical-align: middle;"><input class="range-slider__range rsw-range-slider" type="range" value="<?php echo esc_attr( $this->value() ); ?>"
 																																				  <?php
 																																					$this->input_attrs();
 																																					$this->link();

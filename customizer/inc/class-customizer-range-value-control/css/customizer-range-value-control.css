@@ -33,6 +33,10 @@ body {
     margin: 0;
 }
 
+.range-slider__range.rsw-range-slider {
+  width: calc(100% - (95px)) !important;
+}
+
 .range-slider__range::-webkit-slider-thumb {
     -webkit-appearance: none;
     appearance: none;

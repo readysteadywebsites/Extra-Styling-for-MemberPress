@@ -73,20 +73,20 @@ require plugin_dir_path(__FILE__) . 'customizer/rswmpstyling-customizer-css.php'
 function rswmpstyling_admin_notice()
 {
     $user_id = get_current_user_id();
-    if (!get_user_meta($user_id, 'rswmpstyling_admin_notice_offer_24112021')) {
-        echo '<div class="notice notice-info is-dismissible" style="background-color:#e5f9dc;border-color: #a0dd85;"><p><strong><span style="font-size:1.25rem">Go Pro with 50% off!</span><br><br>Looking for LOADS MORE styling options, Course styling options plus even more?</strong><br><br>Did you know we have a "Pro" version of our Extra Styling for MemberPress plugin called <strong>Missing Bits for MemberPress</strong>!<br><br><strong style="font-size:1rem">🛒&nbsp; &nbsp;  <a href="https://readysteadywebsites.com/rswmpmbitsdec50" target="_blank">Enter "DEC50" at the checkout to get 50% off today!</a></strong></p><p><a href="?rswmpstyling-offer">Dismiss</a></p></div>';
+    if (!get_user_meta($user_id, 'rswmpstyling_admin_notice_offer_27122022')) {
+        echo '<div class="notice notice-info is-dismissible" style="background-color:#eee6fc;border-color: #5d07de;"><p><strong><span style="font-size:1.25rem">Go Pro Today with 30% off!</span><br><br>Looking for LOADS MORE styling options, Course styling options plus even more?</strong><br><br>Did you know we have a "Pro" version of our Extra Styling for MemberPress plugin called <strong>Missing Bits for MemberPress</strong>!<br><br><strong style="font-size:1rem">🛒&nbsp; &nbsp;  <a href="https://readysteadywebsites.com/rswmpmbits2022" target="_blank">Enter "30OFF" at the checkout to get 30% off today!</a></strong></p><p><a href="?rswmpstyling-offer">Dismiss</a></p></div>';
     }
 }
 add_action('admin_notices', 'rswmpstyling_admin_notice');
 
-function rswmpstyling_admin_notice_offer_24112021()
+function rswmpstyling_admin_notice_offer_27122022()
 {
     $user_id = get_current_user_id();
     if (isset($_GET['rswmpstyling-offer'])) {
-        add_user_meta($user_id, 'rswmpstyling_admin_notice_offer_24112021', 'true', true);
+        add_user_meta($user_id, 'rswmpstyling_admin_notice_offer_27122022', 'true', true);
     }
 }
-add_action('admin_init', 'rswmpstyling_admin_notice_offer_24112021');
+add_action('admin_init', 'rswmpstyling_admin_notice_offer_27122022');
 
 /**
  * Begins execution of the plugin.

@@ -3,7 +3,7 @@ Contributors: readysteadywebsites
 Donate link: https://readysteadywebsites.com/styling-memberpress/
 Tags: memberpress, customizer, registration, readsteadywebsites, css, styling, sign up
 Requires at least: 5.1
-Tested up to: 5.9
+Tested up to: 6.0
 Stable tag: 1.0.9
 Requires PHP: 7.0
 License: GPLv2 or later
